@@ -1,0 +1,16 @@
+{
+  "name": "slackoverflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/pm2 start pm2_config.json"
+  },
+  "author": "Stackoverflow search for slack",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^2.3.0",
+    "request-promise": "^2.0.1"
+  }
+}

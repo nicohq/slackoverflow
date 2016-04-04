@@ -1,0 +1,10 @@
+{
+    "apps": [{
+        "name": "Slackoverflow - bot for seraching on stackoverflow",
+        "script": "index.js",
+        "exec_interpreter": "node",
+        "watch": true,
+        "autorestart": true,
+        "ignore_watch": ["[\\/\\\\]\\./", "node_modules"]
+    }]
+}
